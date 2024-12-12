@@ -5,26 +5,23 @@ img {
 .TopperText {
     font-family: "ITC Franklin Gothic";
     position: absolute;
-    top: 8px;
-    left: 16px;
 }
 
 body {
     background-color: #2b2b2b;
     color: white;
     margin: 150px;
-    font-family: "ITC Franklin Gothic";
+    font-family: times new roman;
 }
 
 .cl2 {
     font-style: italic;
     font-family: times new roman;
     color: white;
-    font-size: large;
-    font-weight: bold;
     width: 100%;
     display: block;
     text-align: center;
+    font-size: small;
 }
 
 .cutline {
@@ -32,18 +29,13 @@ body {
     font-style: italic;
     font-family: times new roman;
     color: white;
-    font-size: large;
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    width: 60%;
+    font-size: medium;
 }
 .line1 {
     color: #ffffff;
-    margin: 10px auto;
     width: 84%;
     border-width: 5px;
+    margin: 20px 0; }
 }
 
 .cw {
@@ -70,18 +62,59 @@ body {
     width: 60%;
 }
 
-.footer
-{text-align: center;     
- color: white
-    font-size: 12px;
-         font-style: italic;
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
 }
 
-.links{
-    color: gray; /* Default font color */
-    text-decoration: none; /* Removes underline from the link */
+.link {
+    color: black;
+    text-decoration: none;
 }
 
-.links:hover {
-    color: black; /* Font color changes to gray on hover */
+.link:hover {
+    color: gray;
 }
+
+h1 {
+    font-family: franklin Gothic;
+}
+
+.image-container {
+    position: relative;
+}
+
+.text-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.text-box p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.pull-quote {
+  font-size: 1.5rem; 
+  font-style: italic;
+  color: white;
+  padding: 10px 20px;
+  border-left: 4px solid #ffffff; 
+  background-color: #2b2b2b; 
+} 
+
+.footerline{
+border: none; 
+  height: 5px;
+  background-color: white;
+      margin: 20px 0; }
+    
+
