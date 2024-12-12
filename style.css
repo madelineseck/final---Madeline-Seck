@@ -1,0 +1,49 @@
+img {
+    width: 100%;
+}
+
+.TopperText {
+    font-family: "ITC Franklin Gothic";
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+body {
+    background-color: #2b2b2b;
+    color: white;
+    margin: 0;
+    font-family: "ITC Franklin Gothic";
+}
+
+.cutline {
+    text-align: center;
+    font-style: italic;
+    margin: 10px auto;
+    font-family: times new roman;
+    color: white;
+    font-size: large;
+}
+
+.line1 {
+    color: #ffffff;
+    margin: 10px auto;
+    width: 84%;
+    border-width: 5px;
+}
+
+.cw {
+    font-style: italic;
+    margin: 10px auto;
+    font-family: times new roman;
+    color: white;
+    width: 84%;
+}
+
+.body {
+    font-size: 20px;
+}
+
+.flourish-chart1 {
+    margin: 10px auto;
+}
