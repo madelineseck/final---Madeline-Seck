@@ -12,19 +12,33 @@ img {
 body {
     background-color: #2b2b2b;
     color: white;
-    margin: 0;
+    margin: 150px;
     font-family: "ITC Franklin Gothic";
+}
+
+.cl2 {
+    font-style: italic;
+    font-family: times new roman;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 .cutline {
     text-align: center;
     font-style: italic;
-    margin: 10px auto;
     font-family: times new roman;
     color: white;
     font-size: large;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 60%;
 }
-
 .line1 {
     color: #ffffff;
     margin: 10px auto;
@@ -34,10 +48,11 @@ body {
 
 .cw {
     font-style: italic;
-    margin: 10px auto;
+    margin: 20px auto;
     font-family: times new roman;
     color: white;
     width: 84%;
+    font-size: large;
 }
 
 .body {
@@ -46,4 +61,27 @@ body {
 
 .flourish-chart1 {
     margin: 10px auto;
+}
+
+.img2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 60%;
+}
+
+.footer
+{text-align: center;     
+ color: white
+    font-size: 12px;
+         font-style: italic;
+}
+
+.links{
+    color: gray; /* Default font color */
+    text-decoration: none; /* Removes underline from the link */
+}
+
+.links:hover {
+    color: black; /* Font color changes to gray on hover */
 }
