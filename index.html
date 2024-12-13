@@ -11,17 +11,28 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous" />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet" />
+
         <link href="style.css" rel="stylesheet" />
     </head>
 
     <body>
-        <div class="image-container">
-            <div class="text-box">
-                <h1>University of Maryland hosts events to raise awareness on domestic violence</h1>
-                <p>By Madeline Seck</p>
-                <p>Nov 5, 2024</p>
+        <div class="container-fluid" id="textbox">
+            <div class="row">
+                <div class="col">
+                    <h1 class="headline">
+                        University of Maryland hosts events to raise awareness on domestic violence
+                    </h1>
+                    <h4>By Madeline Seck</h4>
+                    <h3>Nov 5, 2024</h3>
+
+                    <img src="cut%201.jpg" alt="Image" class="background-image" />
+                </div>
             </div>
-            <img src="cut%201.jpg" alt="Image" class="background-image" />
         </div>
 
         <div class="container-fluid">
@@ -33,9 +44,14 @@
                     </p>
                 </div>
             </div>
-            <div class="container-fluid" id="body">
-                <hr class="line1" />
-                <div class="row">
+        </div>
+
+        <br />
+
+        <div class="container">
+            <div class="row">
+                <div class="body">
+                    <hr class="line1" />
                     <h1 class="cw">
                         <b
                             ><i
@@ -44,16 +60,7 @@
                             </i></b
                         >
                     </h1>
-                </div>
-                <hr class="line1" />
-            </div>
-        </div>
-
-        <br />
-
-        <div class="container">
-            <div class="row">
-                <div class="body">
+                    <hr class="line1" />
                     <p>
                         The University of Maryland hosted events throughout October for Domestic Violence Awareness
                         Month, bringing attention to relationship violence and power-based violence that occurs on and
@@ -84,22 +91,21 @@
                     </p>
 
                     <br />
+
                     <p>
                         Women ages 18 to 24 and 25 to 34 are at the highest risk of experiencing relationship violence.
                     </p>
-                    <div class="flourish-embed flourish-pictogram" data-src="visualisation/20764295">
-                        <script src="https://public.flourish.studio/resources/embed.js"></script>
-                        <noscript
-                            ><img
-                                src="https://public.flourish.studio/visualisation/20764295/thumbnail"
-                                width="100%"
-                                alt="pictogram visualization"
-                        /></noscript>
-                    </div>
-                    <br />
+
                     <p>
+                        <img src="Infographic%20.jpg" class="img2" />
                         Nearly 1 in 3 college women have been in an abusive dating relationship, based on domestic
-                        violence statistics, from the National Domestic Violence Hotline.
+                        violence statistics, from the
+                        <a
+                            href="https://www.thehotline.org/stakeholders/domestic-violence-statistics/#:~:text=43%25%20of%20dating%20college%20women,verbal%2C%20or%20other%20controlling%20abuse.&text=Nearly%201%20in%203%20college,in%20an%20abusive%20dating%20relationship%20."
+                            class="link"
+                            target="_blank"
+                            >National Domestic Violence Hotline.</a
+                        >
                     </p>
                     <br />
                     <p>
@@ -134,7 +140,7 @@
                         Clothesline Project. (Madeline Seck/The Black Explosion)
                     </p>
                     <br />
-                    <p>“I am not a Su*t.”</p>
+                    <p class="pull-quote">“I am not a Su*t.”</p>
                     <br />
                     <p>“How do you live with yourself?”</p>
                     <br />
@@ -145,8 +151,7 @@
                     </p>
                     <br />
 
-                    <blockquote class="pull-quote">“I am not alone.”</blockquote>
-
+                    <p class="pull-quote">“I am not alone.”</p>
                     <br />
                     <p>
                         These are just a handful of the anonymous messages from the Clothesline Project that have been
@@ -243,7 +248,7 @@
                         positive vibes,” Ogugua said.
                     </p>
                     <br /><br />
-                    <hr class=footerline>
+                    <hr class="footerline" />
                     <p class="footer">
                         This story has been reproduced as part of coursework for the Philip Merrill College of
                         Journalism at the University of Maryland. It was originally published by
